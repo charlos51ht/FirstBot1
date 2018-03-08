@@ -17,7 +17,7 @@ import java.io.*;
 public class Main {
 	public static void main(String[] args)
 	{
-		DiscordAPI api = Javacord.getApi("NDA2NDcxNjU1NTA2ODM3NTA2.DVzpGw.Ob-rI34bXyCTb3n8_MfbfjDLSyM",true);
+		DiscordAPI api = Javacord.getApi("NDIxMzc2MjA4MzQ5OTU0MDY4.DYMUtQ.ckvlFH6icmMjQjwXBcKFaG3X68w",true);
 		api.connect(new FutureCallback<DiscordAPI>() {
 			public void onSuccess(final DiscordAPI api) {
 				api.registerListener(new MessageCreateListener() {
@@ -80,7 +80,7 @@ public class Main {
 							     			"Why can't your nose be 12 inches long? Because then it would be a foot!\r\n" + 
 							     			"What makes the calendar seem so popular? Because it has a lot of dates!\r\n" + 
 							     			"Why did Mickey Mouse take a trip into space? He wanted to find Pluto!\r\n" + 
-							     			"What is green and has yellow wheels? Grass…..I lied about the wheels!\r\n" + 
+							     			"What is green and has yellow wheels? Grassâ€¦..I lied about the wheels!\r\n" + 
 							     			"What is it that even the most careful person overlooks? Her nose!\r\n" +  
 							     			"Why do you go to bed every night? Because the bed won't come to you!\r\n" + 
 							     			"Why did Billy go out with a prune? Because he couldn't find a date!\r\n" + 
